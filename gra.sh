@@ -9,9 +9,9 @@
 ##                         Because we like it dirty.                          ##
 ##                                                                            ##
 ##                                                                            ##
-##  <niols@niols.fr> wrote this file. As long as you retain this notice you   ##
-##  can do whatever you want with this stuff. If we meet some day, and you    ##
-##  think this stuff is worth it, you can buy me a beer in return.            ##
+##  <niols@niols.fr> wrote this file. As long as you retain this notice you    ##
+##  can do whatever you want with this stuff. If we meet some day, and you     ##
+##  think this stuff is worth it, you can buy me a beer in return.             ##
 ##                                                                            ##
 ################################################################################
 
@@ -23,7 +23,7 @@ function list { ls --color=never -1 "$@"; }
 function is_symbolic_link { [ -L "$1" ]; }
 function is_empty         { [ -z "$1" ]; }
 function is_directory     { [ -d "$1" ]; }
-function is_regular_file  { [ -f "$1" ]; }
+function is_regular_file   { [ -f "$1" ]; }
 
 
 ## gra.sh
